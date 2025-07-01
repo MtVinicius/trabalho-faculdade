@@ -1,0 +1,141 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+****** FORMATAÇÕES GENERICAS ******
+*/
+
+body{
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    background-image: url(background2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+
+}
+
+h2{
+    text-align: center;
+    background: black;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+/*
+****** HEADER ******
+*/
+#header{
+    background-color: black;
+    padding: 15px;
+    text-align: left;
+}
+
+#banner, #menu{
+    padding: 5px;
+}
+
+#header a:link, #header a:visited{
+    color: #FFFFFF;
+    padding: 6px 14px;
+}
+
+#header a:hover{
+    color: black;
+    background: white;
+    text-decoration:none;
+
+}
+
+.red{
+    color: red;
+}
+
+.img-pt{
+    width: 220px;
+}
+
+
+/*
+****** CONTEUDO ******
+*/
+#conteudo{
+    width: 920px;
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+
+section{
+    color: white;
+    background-color: black;
+}
+
+ul li{
+    display: block;
+    text-decoration: none;
+}
+
+#paragrafo{
+    padding: 10px;
+    width: 660px;
+    float:center;
+    background: rgb(184, 93, 59);
+    border: 2px solid black;
+}
+
+.txt{
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+
+.img-post{
+    width: 620px;
+
+}
+img {
+    border-radius: 10px;
+    /*opacity: 0.5;*/
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+img:hover{
+    opacity: 0.5;
+}
+
+
+/*
+****** FORMATAÇÃO DOS LINKS ******
+*/
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
